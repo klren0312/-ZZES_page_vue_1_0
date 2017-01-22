@@ -31,21 +31,16 @@
 			</Card>
 		</i-col>		
 	</Row>
-</center>
-	<hr>
-	<hr>
-	<center>
-		<a href="http://vuejs.org.cn/">Vuejs官方文档&nbsp;&nbsp;</a>
-		<a href="http://router.vuejs.org/zh-cn/index.html">Vue-router&nbsp;&nbsp;</a>
-		<a href="http:/zzesxiao.leanote.com">治电小白菜博客&nbsp;&nbsp;</a>	
-		<br>
-		Copyright © 2009-2017 治电科技
-	</center>
+
 </template>
  
 
  
 
 <script type="text/javascript">
-	export default{}
+	export default{
+		ready(){
+			this.$Message.info('欢迎来到治电科技官网', 5);
+		}
+	}
 </script> 
