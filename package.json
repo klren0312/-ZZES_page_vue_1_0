@@ -10,9 +10,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/icarusion/vue-vueRouter-webpack.git"
+    "url": "git+https://git.oschina.net/klren/ZZESvue_1_X.git"
   },
-  "author": "Aresn",
+  "author": "klren",
   "license": "MIT",
   "dependencies": {
     "css-loader": "^0.23.1",
@@ -51,7 +51,7 @@
     "webpack": "^1.13.1"
   },
   "bugs": {
-    "url": "https://github.com/icarusion/vue-vueRouter-webpack/issues"
+    "url": "https://git.oschina.net/klren/ZZESvue_1_X.git/issues"
   },
-  "homepage": "https://github.com/icarusion/vue-vueRouter-webpack#readme"
+  "homepage": "https://git.oschina.net/klren/ZZESvue_1_X.git#readme"
 }
