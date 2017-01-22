@@ -34,6 +34,16 @@
         </Menu-item>
     </Menu>
     <router-view></router-view>
+
+    <hr>
+    <hr>
+    <center>
+        <a href="http://vuejs.org.cn/">Vuejs官方文档&nbsp;&nbsp;</a>
+        <a href="http://router.vuejs.org/zh-cn/index.html">Vue-router&nbsp;&nbsp;</a>
+        <a href="http:/zzesxiao.leanote.com">治电小白菜博客&nbsp;&nbsp;</a>    
+        <br>
+        Copyright © 2009-2017 治电科技
+    </center>
 </div>        
     
     
@@ -50,7 +60,7 @@
 
         },
         methods: {
- 
+            
         }
     }
 </script>
