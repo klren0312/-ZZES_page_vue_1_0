@@ -19,6 +19,7 @@ module.exports = {
     module: {
         loaders: [
             { test: /\.vue$/, loader: 'vue' },
+            { test: /iview.src.*?js$/,loader:"babel"},
             { test: /\.js$/, loader: 'babel', exclude: /node_modules/ },
             { test: /\.css$/, loader: 'style!css!autoprefixer'},
             { test: /\.scss$/, loader: 'style!css!sass?sourceMap'},
@@ -30,6 +31,9 @@ module.exports = {
     babel: {
         presets: ['es2015'],
         plugins: ['transform-runtime']
+    },    
+    externals: {
+        'AMap': 'AMap'
     },
     resolve: {
         // require时省略的扩展名，如：require('module') 不需要module.js
@@ -43,4 +47,5 @@ module.exports = {
     plugins: [
 
     ]
+
 };
