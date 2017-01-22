@@ -15,8 +15,15 @@
   "author": "Aresn",
   "license": "MIT",
   "dependencies": {
+    "css-loader": "^0.23.1",
+    "file-loader": "^0.8.5",
+    "iview": "^0.9.16",
+    "jquery": "^3.1.1",
+    "style-loader": "^0.13.1",
     "vue": "^1.0.25",
-    "vue-router": "^0.7.13"
+    "vue-router": "^0.7.13",
+    "wilddog": "^2.4.4",
+    "wildvue": "^1.1.1"
   },
   "devDependencies": {
     "autoprefixer-loader": "^2.0.0",
