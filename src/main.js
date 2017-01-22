@@ -5,9 +5,16 @@ import Vue from 'vue';
 import VueRouter from 'vue-router';
 import App from 'components/app.vue';
 import Routers from './router';
+import iView from 'iview';
+import 'iview/dist/styles/iview.css';
+import WildVue from 'wildvue';
+import Wilddog from 'wilddog';
+import AMap from './components/map';
 import Env from './config/env';
 
-Vue.use(VueRouter);
+Vue.use(VueRouter);//安装VueRouter模块
+Vue.use(iView);//安装iView组件库
+Vue.use(WildVue);//安装wilddog vue模块
 
 // 开启debug模式
 Vue.config.debug = true;
@@ -29,6 +36,11 @@ router.afterEach(() => {
 });
 
 router.redirect({
-    '*': "/index"
+    '*': "/test"
 });
 router.start(App, '#app');
+
+new Vue({
+  el: 'body',
+  components: { Map }
+})
