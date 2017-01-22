@@ -1,54 +1,50 @@
-<style scoped lang="less">
-    h1{
-        color: #28a7e1;
-        text-align: center;
-        font-size: 25px;
-        font-weight: bold;
-        margin-top: 100px;
+<style>
+ 
+    #logo{
+            height: 100%;
+            width: 70px;
     }
-    h2{
-        text-align: center;
-        font-size: 20px;
-        margin-top: 50px;
-        img{
-            width: 150px;
-        }
-    }
+ 
 </style>
-<template>
-    <h2>
-        <img src="../images/logo.png">
-    </h2>
-    <h1>
-        覆盖移动终端:
-        {{ 3731700153 |  NumberSeparator }}
-    </h1>
-    <h2 v-time></h2>
+<template> 
+<div>
+    <Menu mode="horizontal" :theme="light" active-key="1">
+        <Menu-item key="0">
+            <img id="logo" src="../images/zzes.png" alt="zzes">
+        </Menu-item>
+        <Menu-item key="1" v-link="'/test'">
+            <Icon type="home" ></Icon>
+            首页
+        </Menu-item>
+        <Menu-item key="2" v-link="'/map'">
+            <Icon type="map"></Icon>
+            基地所在
+        </Menu-item>
+        <Menu-item key="3" v-link="'/subject'">
+            <Icon type="ios-paper-outline"></Icon>
+            相关项目
+        </Menu-item>
+        <Menu-item key="4" v-link="'/aboutus'">
+            <Icon type="flag" ></Icon>
+            关于我们
+        </Menu-item>
+    </Menu>
+    <router-view></router-view>
+</div>        
+    
+    
 </template>
 <script>
-    import NumberSeparator from '../filters/number-separator';
-    import Time from '../directives/time';
-
-    export default {
-        filters: {
-            NumberSeparator
-        },
-        directives: {
-            time: Time
-        },
-        data () {
+    module.exports = {
+        data: function() {
             return {
-
             }
         },
-        ready () {
-
+        ready: function() {
         },
-        beforeDestroy () {
-
+        beforeDestroy: function() {
         },
         methods: {
-            
         }
     }
 </script>
