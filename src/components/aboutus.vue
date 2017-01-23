@@ -18,7 +18,7 @@
         </Timeline-item>
         <Timeline-item>
             <p class="time">2011年6月</p>
-            <p class="content">CIID更名为CII成立</p>
+            <p class="content">CIID更名为CII</p>
         </Timeline-item>
         <Timeline-item>
             <p class="time">2012年</p>
@@ -33,7 +33,7 @@
             <p class="content">治中电科成立</p>
         </Timeline-item>
         <Timeline-item>
-            <p class="time">2015年1月</p>
+            <p class="time">2016年1月</p>
             <p class="content">治中电科和望创CCW合作</p>
         </Timeline-item>
         <Timeline-item>
@@ -57,14 +57,14 @@
 </i-col>
 
 <i-col span="8">
-    <Card style="width:400px">
+    <Card style="width:100%">
         <div style="text-align:center">
             <img src="../images/t1.png" style="width:100%">
             <h3>治电官网1.x系列</h3>
         </div>
     </Card>
     <br>
-    <Card style="width:400px">
+    <Card style="width:100%">
         <div style="text-align:center">
             <img src="../images/t2.png" style="width:100%">
             <h3>治电官网5.x系列</h3>
