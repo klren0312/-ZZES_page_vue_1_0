@@ -50,7 +50,7 @@ config.plugins = (config.plugins || []).concat([
     new HtmlWebpackPlugin({                                                                        // 构建html文件
         filename: '../index_prod.html',
         template: './src/template/index.ejs',
-        inject: false
+        inject: 'body'
     })
 ]);
 

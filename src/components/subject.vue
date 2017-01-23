@@ -2,7 +2,7 @@
 	<center><h1>治电科技作品展</h1></center>
     <Row>
     	<i-col span="8">
-    		<Card style="width:400px">
+    		<Card style="width:100%">
     	        <div style="text-align:center">
     	            <img src="../images/subjects/8.jpg" style="width:100%">
     	            <h3>治电科技2017鸡年吉祥物</h3>
@@ -10,7 +10,7 @@
     	    </Card>
     	</i-col>
     	<i-col span="8">
-    		<Card style="width:400px">
+    		<Card style="width:100%">
     			<div style="text-align:center">
     				<img src="../images/subjects/1.jpg" alt="" style="width:100%">
     				<h3>治电科技陆龟生态箱</h3>
@@ -18,7 +18,7 @@
     		</Card>
     	</i-col>
     	<i-col span="8">
-    		<Card style="width:400px">
+    		<Card style="width:100%">
     			<div style="text-align:center">
     				<img src="../images/subjects/2.jpg" alt="" style="width:100%">
     				<h3>治电科技智能登山杖</h3>
@@ -29,7 +29,7 @@
     <br>
     <Row>
     	<i-col span="8">
-    		<Card style="width:400px">
+    		<Card style="width:100%">
     			<div style="text-align:center">
     				<img src="../images/subjects/3.jpg" alt="" style="width:100%">
     				<h3>治电科技智能手环</h3>
@@ -37,7 +37,7 @@
     		</Card>
     	</i-col>
     	<i-col span="8">
-    		<Card style="width:400px">
+    		<Card style="width:100%">
     			<div style="text-align:center">
     				<img src="../images/subjects/4.jpg" alt="" style="width:100%">
     				<h3>行星齿轮无级变速器</h3>
@@ -45,7 +45,7 @@
     		</Card>
     	</i-col>
     	<i-col span="8">
-    		<Card style="width:400px">
+    		<Card style="width:100%">
     			<div style="text-align:center">
     				<img src="../images/subjects/6.jpg" alt="" style="width:100%">
     				<h3>治电科技智能传送带</h3>
